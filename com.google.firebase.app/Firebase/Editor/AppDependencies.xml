@@ -15,11 +15,6 @@ FirebaseApp iOS and Android Dependencies.
     </androidPackage>
     <androidPackage spec="com.google.android.gms:play-services-base:17.6.0">
     </androidPackage>
-    <androidPackage spec="com.google.firebase:firebase-app-unity:8.7.0">
-      <repositories>
-        <repository>Assets/Firebase/m2repository</repository>
-      </repositories>
-    </androidPackage>
   </androidPackages>
 </dependencies>
 
