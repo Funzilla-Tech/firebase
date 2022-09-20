@@ -1,2 +1,6 @@
 *.tgz
 /com.google.*
+node_modules
+package-lock.json
+.idea
+.vscode

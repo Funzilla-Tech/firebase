@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-gyp": "^9.1.0",
+    "xml-formatter": "latest",
+    "xml2json": "latest"
+  }
+}

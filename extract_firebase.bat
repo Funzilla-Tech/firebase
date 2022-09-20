@@ -10,3 +10,4 @@ move %PACKAGE%\Firebase\m2repository.meta %PACKAGE%\Plugins\Android.meta
 rmdir /S /Q %PACKAGE%\Firebase\m2repository
 del %PACKAGE%\Firebase\Plugins\x86_64\*.so
 del %PACKAGE%\Firebase\Plugins\x86_64\*.so.meta
+node fix_xml.js ./%PACKAGE%/Firebase/Editor/%DEPEND% com.google.firebase:%NAME%:%VERSION%
